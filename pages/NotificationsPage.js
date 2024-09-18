@@ -46,7 +46,7 @@ const NotificationsPage = ({ navigation }) => {
             <Text style={styles.notificationTitle}>Pagamento atrasado</Text>
             <Text style={styles.notificationSubtitle}>Faça sua transferência!</Text>
           </View>
-          <TouchableOpacity onPress={() => navigation.navigate('PaymentPage')}>
+          <TouchableOpacity onPress={() => navigation.navigate('COLOQUE A PAGE AQ!!')}>
             <View style={styles.iconContainer}>
               <Ionicons name="arrow-forward-outline" size={24} color="white" />
             </View>
@@ -65,7 +65,7 @@ const NotificationsPage = ({ navigation }) => {
             <Text style={styles.notificationTitle}>Localização atual</Text>
             <Text style={styles.notificationSubtitle}>Onde Samuel está agora?</Text>
           </View>
-          <TouchableOpacity onPress={() => navigation.navigate('LocationPage')}>
+          <TouchableOpacity onPress={() => navigation.navigate('COLOQUE A PAGE AQ!!')}>
             <View style={styles.iconContainer}>
               <Ionicons name="arrow-forward-outline" size={24} color="white" />
             </View>
@@ -84,7 +84,7 @@ const NotificationsPage = ({ navigation }) => {
             <Text style={styles.notificationTitle}>Mensagem</Text>
             <Text style={styles.notificationSubtitle}>Motorista mandou mensagem</Text>
           </View>
-          <TouchableOpacity onPress={() => navigation.navigate('MessagePage')}>
+          <TouchableOpacity onPress={() => navigation.navigate('COLOQUE A PAGE AQ!!')}>
             <View style={styles.iconContainer}>
               <Ionicons name="arrow-forward-outline" size={24} color="white" />
             </View>
