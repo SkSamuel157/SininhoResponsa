@@ -7,7 +7,7 @@ const HomePage = ({ navigation }) => {
     <View style={{ flex: 1 }}>
       <CustomHeader 
         title="HOME" 
-        onProfilePress={() => console.log('Perfil clicado')} 
+        onProfilePress={() => navigation.navigate('QuadroAvisosPage')} 
         onNotificationPress={() => navigation.navigate('Notificações')} 
       />
       <Text style={{ textAlign: 'center', marginTop: 20 }}>Conteúdo da Página Principal</Text>
